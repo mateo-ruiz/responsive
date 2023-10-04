@@ -1,0 +1,68 @@
+    #cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+    height: 55px; 
+    }
+  
+  .titulos {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    color: white;
+  }
+
+  .titulos h4{
+    margin-right: 100px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    padding-top: 25px;
+  }
+
+  
+  .subtitulos {
+    display: flex;
+    gap: 100px; /* Espacio entre h4 */
+    padding-top: 15px;
+  }
+  
+  input {
+    margin-right: 15px; /* Espacio entre los títulos y el input */
+    border-radius: 5px;
+    border-color: gray;
+    width: 300px; /* Ajusta el ancho según tus necesidades */
+    height: 40px; /* Ajusta la altura según tus necesidades */
+    font-size: 16px;
+    border: none;
+    outline: none;
+  }
+
+  .titulo{
+    text-align: center;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .list-group{
+    width: 250px;
+    margin-left: 300px;
+    margin-top: 100px;
+  }
+
+ .contenido{
+    column-count: 3;
+    column-gap: 20px; 
+    column-width: 300px; 
+    float: right;
+    width: 1000px;
+    margin-right: 325px;
+    margin-top: 30px;
+    text-align: justify;
+    flex-wrap: wrap;
+    
+ }
+
+ .list-group-item {
+    height: 50px; /
+    
+}
